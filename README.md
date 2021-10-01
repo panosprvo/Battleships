@@ -1,6 +1,6 @@
 # Battleships
 
-Battleship is usually a two-player game, where each player has a fleet and an ocean (hidden from the other player), and tries to be the first to sink the other player's fleet. I'll just do a solo version, where the computer places the ships, and the human attempts to sink them.
+Battleships is usually a two-player game, where each player has a fleet and an ocean (hidden from the other player), and tries to be the first to sink the other player's fleet. I'll just do a solo version, where the computer places the ships, and the human attempts to sink them.
 
 The Ocean is a field of 10 x 10 squares. The squares are numbered from 0 to 9 in each dimension with numbers increasing from top to bottom and from left to right.
 
@@ -17,3 +17,4 @@ The human player does not know where the ships are. The human player tries to hi
 
 We represent a fleet by means of a list [ship1, ship2, ....] of ships.
 
+This projects contains all the tests needed for functions used in the implementation, the implementation, and an extension file, which provides a visualisation of the game.
